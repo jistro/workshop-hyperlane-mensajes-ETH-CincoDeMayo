@@ -55,3 +55,12 @@ Así es como funciona el proceso:
 5.  **Configurar el Receptor:** De forma similar, en el contrato `Receptor.sol` desplegado, llama a la función `_establecerEmisor()` para guardar la **dirección** y el **Chain ID** del contrato `Emisor.sol` en la cadena origen.
 6.  **Enviar un Mensaje:** Llama a la función `enviarMensaje()` desde el contrato `Emisor.sol`. Esto iniciará el proceso de envío del mensaje hacia la cadena destino a través de Hyperlane.
 7.  **Verificar la Recepción:** En el contrato `Receptor.sol`, utiliza la función `obtenerMensajePorIndex()` (o el nombre exacto que tenga en el código) para consultar los mensajes que han sido recibidos desde la cadena origen.
+
+---
+
+## Recursos adicionales
+
+- [Documentación de Hyperlane](https://docs.hyperlane.xyz/)
+- [Documentación de Messaging (envio de mensajes)](https://docs.hyperlane.xyz/docs/reference/messaging/send)
+- [Documentación de Messaging (recepción de mensajes)](https://docs.hyperlane.xyz/docs/reference/messaging/receive)
+- [Documentación de Mailbox](https://docs.hyperlane.xyz/docs/protocol/mailbox)
