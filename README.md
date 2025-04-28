@@ -38,6 +38,9 @@ Así es como funciona el proceso:
 5.  Una vez allí, la 'oficina postal' (**Mailbox**) de _ese_ estado/cadena destino recibe el mensaje.
 6.  Finalmente, esta oficina local **entregará** el mensaje directamente a la 'casa receptora' (el contrato **Receptor**), completando la comunicación.
 
+![image](https://github.com/user-attachments/assets/28b50ca2-f130-4521-97d8-f8b9af542725)
+
+
 ---
 
 ## Pasos a seguir
